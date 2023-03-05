@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;600&display=swap');
+
+button {
+    font-size: 24pt;
+    margin: 10px;
+}
+
+body {
+    font-family: 'Baloo Da 2', cursive;
+    min-width: 80%;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    margin: auto;
+    background-image: url('./Assets/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    backdrop-filter: blur(2px);
+    background-attachment: fixed;
+}
+
+.button-div {
+    margin: 1rem;
+}
+
+.button-div button {
+    border-radius: 0.5em;
+    border: none;
+    width: 4em;
+    color: white;
+    font-size: 1.2em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#train {
+    background-color: #432C7A;
+}
+
+#test {
+    background-color: #80489C;
+}
+
+#guess {
+    background-color: #FF8FB1;
+}
+
+#clear {
+    background-color: black;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+span {
+    background-color: rgba(0, 0, 0, .8);
+    border-radius: 10px;
+    width: 17rem;
+    margin: 0.4em auto;
+    border: 0.1px solid white;
+    backdrop-filter: blur(10px);
+}
+
+#msg {
+    font-weight: 600;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+canvas {
+    /* border: 2px solid red; */
+    filter: drop-shadow(5px 7px 4px #FF8FB1);
+    backdrop-filter: blur(10px);
+}
